@@ -108,6 +108,7 @@ nav li {
     display: flex;
     align-items: center;
     position: relative;
+    padding-top: 60px;
 }
 #getStartedText {
     padding: 92px 0;
