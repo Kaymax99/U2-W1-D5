@@ -16,7 +16,6 @@ header button {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 7px 10px;
 }
 
 li {
@@ -79,9 +78,6 @@ header {
     width: 100%;
 }
 
-#pgLogo {
-    scale: 0.9;
-}
 
 nav {
     transition: background-color 0.6s;
@@ -90,17 +86,17 @@ nav {
     width: 100vw;
     justify-content:space-between;
     align-items: center;
-    padding: 20px 20px;
+    padding: 20px 0px;
     position: fixed;
     z-index: 1
 }
 
 .navBarLogo{
-    padding-left: 10vw;
+    padding-left: 5vw;
 }
 
 .navBarList {
-    padding-right: 10vw;
+    padding-right: 2vw;
 }
 
 .changeNavBG {
@@ -112,6 +108,7 @@ nav {
     transition: background-color 0.6s;
     border: none;
     cursor: pointer;
+    padding: 12px 20px;
 }
 
 .changeNavButtBG {
@@ -130,19 +127,19 @@ margin-right: 40px
 nav li {
     list-style-type: none;
     margin-right: 30px;
-    /* width: 80px */
+    font-size: 0.85em;
 }
 
 #headerGetStarted {
     display: flex;
     align-items: center;
     position: relative;
-    padding-top: 80px;
+    padding: 80px 0 10px;
 }
 #getStartedText {
     padding: 92px 0;
-    margin-left: 50px;
-
+    background-color: #ffc017;
+    padding-left: 5vw;
 }
 
 h1 {
@@ -332,5 +329,16 @@ article p {
     color: #666666;
     list-style-type: none;
     padding: 10px;
+}
+@media screen and (max-width: 1030px){
+    #divMs{
+        position: absolute;
+        right: unset;
+        left: 450px;
+        overflow-x: hidden;
+    }
+    #getStartedText {
+
+    }
 
 }
