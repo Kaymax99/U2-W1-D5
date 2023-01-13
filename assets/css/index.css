@@ -6,6 +6,7 @@ html {
 a {
     text-decoration: none;
     color: inherit;
+    cursor: pointer;
 }
 
 header button {
@@ -19,11 +20,15 @@ header button {
 }
 
 li {
-    cursor: pointer;
+    
 }
 
 .btm-border {
     border-bottom: 1.2px solid black;
+}
+
+.gray-btm-border {
+    border-bottom: 1px solid lightgray
 }
 
 .flex {
@@ -43,14 +48,14 @@ li {
 .abs {
     position: absolute;
     right: 0;
-    bottom: 5px
+    bottom: 5px;
+    cursor: pointer;
 }
 
 .flex-betweeen {
     display: flex;
     justify-content: space-between;
 }
-
 
 .mg-btm-05 {
 margin-bottom: 0.5em;
@@ -80,7 +85,7 @@ header {
 
 
 nav {
-    transition: background-color 0.6s;
+    transition: background-color 0.7s;
     background-color: #ffc017;
     display: flex;
     width: 100vw;
@@ -100,19 +105,21 @@ nav {
 }
 
 .changeNavBG {
-    transition: background-color 0.6s;
+    transition: background-color 0.7s;
     background-color: white;
 }
 
 #navButt {
-    transition: background-color 0.6s;
+    transition: background-color 0.7s;
     border: none;
-    cursor: pointer;
+}
+
+.blackButt  {
     padding: 12px 20px;
 }
 
 .changeNavButtBG {
-    transition: background-color 0.6s;
+    transition: background-color 0.7s;
     background-color: #1a8917;
     border: none;
 }
@@ -171,7 +178,6 @@ h1 {
 
 section {
     padding: 2.5em 5vw;
-    border-bottom: 1px solid lightgray
 }
 
 #trendingArrow {
@@ -265,6 +271,7 @@ article {
     color: black;
     padding: 5px 7px;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 .articleIntro{
@@ -299,7 +306,6 @@ article p {
 #tags {
     padding: 0px 10px 20px;
     width: 100%;
-    border-bottom: 1px solid lightgray;
 }
 
 #tags button {
@@ -330,6 +336,7 @@ article p {
     list-style-type: none;
     padding: 10px;
 }
+
 @media screen and (max-width: 1030px){
     #divMs{
         position: absolute;
@@ -340,5 +347,4 @@ article p {
     #getStartedText {
 
     }
-
 }
