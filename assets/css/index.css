@@ -3,6 +3,11 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 header button {
     color: white;
     background-color: black;
@@ -82,12 +87,20 @@ nav {
     transition: background-color 0.6s;
     background-color: #ffc017;
     display: flex;
-    width: 100%;
+    width: 100vw;
     justify-content:space-between;
     align-items: center;
-    padding: 20px 0px;
+    padding: 20px 20px;
     position: fixed;
     z-index: 1
+}
+
+.navBarLogo{
+    padding-left: 10vw;
+}
+
+.navBarList {
+    padding-right: 10vw;
 }
 
 .changeNavBG {
@@ -123,7 +136,7 @@ nav li {
     display: flex;
     align-items: center;
     position: relative;
-    padding-top: 60px;
+    padding-top: 80px;
 }
 #getStartedText {
     padding: 92px 0;
