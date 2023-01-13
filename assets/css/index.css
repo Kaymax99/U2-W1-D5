@@ -75,6 +75,7 @@ header {
 }
 
 nav {
+    transition: background-color 0.5s;
     background-color: #ffc017;
     display: flex;
     width: 100%;
@@ -83,6 +84,11 @@ nav {
     padding: 20px 30px;
     position: fixed;
     z-index: 1
+}
+
+.changeBG {
+    transition: background-color 0.5s;
+    background-color: white;
 }
 
 nav ul {
