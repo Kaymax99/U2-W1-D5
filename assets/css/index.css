@@ -1,0 +1,299 @@
+/* GENERAL */
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+header button {
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 10px;
+}
+
+.btm-border {
+    border-bottom: 1.2px solid black;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-cent {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.rel {
+    position: relative;
+}
+
+.abs {
+    position: absolute;
+    right: 0;
+    bottom: 5px
+}
+
+.flex-betweeen {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.mg-btm-05 {
+margin-bottom: 0.5em;
+}
+
+.mg-btm-1 {
+margin-bottom: 1em;
+}
+
+.pad-05{
+    padding: 0 0.5em;
+}
+
+.gray{
+    color: gray;
+}
+
+.star {
+    margin-left: 5px;
+}
+
+/* HEADER */
+header {
+    background-color: #ffc017;
+    width: 100%;
+}
+
+#pgLogo {
+    scale: 0.9;
+}
+
+nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 30px;
+    position: sticky;
+}
+
+nav ul {
+display: flex;
+align-items: center;
+}
+
+nav li {
+    list-style-type: none;
+    margin-right: 30px
+}
+
+#headerGetStarted {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#getStartedText {
+    padding: 92px 0;
+    margin-left: 50px;
+
+}
+
+h1 {
+    font-size: 106px;
+    font-family: 'Spectral', serif;
+    font-weight: 400;
+/*     padding: 20px; */
+    letter-spacing: -4px;
+    margin-bottom: 25px;
+}
+
+#getStartedText p {
+    font-size: 24px;
+    width: 75%;
+    margin-bottom: 40px;
+}
+
+#getStartedText button{
+    font-size: 1.2em;
+    width: 200px;
+}
+
+#divMs {
+    position: absolute;
+    right: 0;
+}
+
+/* SECTION TRENDING */
+
+section {
+    padding: 2.5em 5vw;
+    border-bottom: 1px solid lightgray
+}
+
+#trendingArrow {
+    scale: 1.2
+}
+
+#trendingHeading {
+    font-size: 0.9em;
+    margin-left: 0.75em;
+    font-weight: 600;
+}
+
+#trendingContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+
+.trendingAuthor{
+    margin-left: -5px;
+}
+
+.trendingArticle {
+    width: 28vw;
+    margin: 25px 0
+}
+
+.trendingAvatar{
+    border-radius: 50px;
+    scale: 0.5;
+}
+
+.trendingAvatarSqr {
+    border-radius: 10px;
+    scale: 0.5;
+}
+
+.trendingNumber {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    opacity: 15%;
+    margin: 0.1em 0.5em 0 0;
+}
+
+.articleRef {
+    text-decoration: none;
+    color: inherit;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 0.8em;
+}
+
+h3 {
+    font-weight: 900;
+    font-size: 0.9em;
+}
+h4 {
+    opacity: 70%;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 0.85em;
+    letter-spacing: -1px;
+}
+
+/* ARTICLE SECTION */
+
+article {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.articleText {
+    margin-right: 20px;
+    width: 100%;
+}
+
+#articlesSection {
+    display: flex;
+    justify-content: space-around;
+}
+
+#recommendedArticles {
+    width: 65vw;
+}
+
+.articleAuthor{
+    margin-left: -10px;
+}
+
+.articleTag{
+    border: none;
+    color: black;
+    padding: 5px 7px;
+    border-radius: 15px;
+}
+
+.articleIntro{
+    font-size: 0.9em;
+}
+
+.articleImg {
+    height: 125px;
+    right: -50px;
+}
+
+article h5 {
+    font-size: 1.25em;
+    font-weight: 800;
+}
+
+article p {
+    color: gray;
+}
+
+/* ASIDE */
+
+#discoverMore {
+    margin-left: 50px;
+    width: 30%;
+}
+
+#discoverMore h2 {
+    margin-bottom: 1em;
+}
+
+#tags {
+    padding: 0px 10px 20px;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+}
+
+#tags button {
+    background-color: white;
+    color: #666666;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    margin: 3px;
+    padding: 7px 8px;
+}
+
+/* FOOTER */
+
+#contacts {
+    /* padding: 10px 20px 20px; */
+    width: 100%;
+}
+
+#discoverMore ul {
+    margin-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#discoverMore li {
+    font-size: 0.8em;
+    color: #666666;
+    list-style-type: none;
+    padding: 10px;
+
+}
