@@ -6,6 +6,5 @@ function changeNav() {
     } else {
         navBar.classList.add("changeBG")
     }
-    console.log(scrollValue)
 }
 window.addEventListener('scroll', changeNav)
