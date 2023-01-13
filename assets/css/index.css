@@ -75,21 +75,27 @@ header {
 }
 
 nav {
+    background-color: #ffc017;
     display: flex;
+    width: 100%;
     justify-content:space-between;
     align-items: center;
     padding: 20px 30px;
-    position: sticky;
+    position: fixed;
+    z-index: 1
 }
 
 nav ul {
 display: flex;
 align-items: center;
+width: 100%;
+margin-right: 40px
 }
 
 nav li {
     list-style-type: none;
-    margin-right: 30px
+    margin-right: 30px;
+    /* width: 80px */
 }
 
 #headerGetStarted {
